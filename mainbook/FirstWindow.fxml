@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="firstanchor" minWidth="-Infinity" prefHeight="500.0" prefWidth="749.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainbook.FirstWindowController">
+   <children>
+      <ProgressBar id="mainprogresscss" fx:id="mainprogress" disable="true" layoutX="155.0" layoutY="390.0" prefHeight="0.0" prefWidth="461.0" progress="0.1" />
+      <Label id="title" alignment="CENTER" layoutX="92.0" layoutY="250.0" prefHeight="19.0" prefWidth="599.0" text="The Computer Science Student Book Store" textFill="#302e3a">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label id="copyright" alignment="BOTTOM_CENTER" layoutX="154.0" layoutY="452.0" prefHeight="19.0" prefWidth="462.0" text="Designed and Made by Mikias Berhanu © 2020 V1.0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

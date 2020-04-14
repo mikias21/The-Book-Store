@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="secondanchor" prefHeight="790.0" prefWidth="1157.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="secondwindow.SecondWindowController">
+   <children>
+      <VBox fx:id="search_container" layoutX="47.0" layoutY="144.0" prefHeight="614.0" prefWidth="254.0" spacing="10.0">
+         <children>
+            <Button id="pythonbtn" fx:id="pythonbooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Python Books" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic" size="15.0" />
+               </font>
+            </Button>
+            <Button id="cbtn" fx:id="cbooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="C Books" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="cppbtn" fx:id="cppbooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="C++ Books" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="javabtn" fx:id="javabooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Java Books" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="mlbtn" fx:id="mlbooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Machine Learning" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="databtn" fx:id="dsbooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Data Structure And Algorithms" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="adbtn" fx:id="andbook" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Android Development" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="netbtn" fx:id="netbooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Networking" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="nlbtn" fx:id="nlbooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Natural Language Processing" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="osbtn" fx:id="osbooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Operating Systems" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="osbtn" fx:id="osbooks2" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="HTML &amp; css" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="osbtn" fx:id="osbooks1" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Pentration Testing &amp; Hacking" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic Semilight" size="15.0" />
+               </font>
+            </Button>
+            <Button id="pythonbtn" fx:id="topratedbooks" defaultButton="true" mnemonicParsing="false" opacity="0.94" prefHeight="26.0" prefWidth="253.0" text="Top Rated Books" textFill="#130808">
+               <effect>
+                  <Glow level="0.23" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Malgun Gothic" size="15.0" />
+               </font>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="30.53" radius="12.9775" width="23.38" />
+         </effect>
+      </VBox>
+      <Label id="mainheader" alignment="CENTER" layoutX="386.0" layoutY="24.0" prefHeight="18.0" prefWidth="529.0" text="The Computer Science Student Book Store">
+         <font>
+            <Font name="Malgun Gothic Semilight" size="15.0" />
+         </font></Label>
+      <ImageView fx:id="search_icon" fitHeight="66.0" fitWidth="65.0" layoutX="850.0" layoutY="43.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resources/images/search4.png" />
+         </image>
+         <effect>
+            <Glow level="0.0">
+               <input>
+                  <DropShadow>
+                     <input>
+                        <Lighting bumpInput="$null">
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </DropShadow>
+               </input>
+            </Glow>
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="329.0" layoutY="145.0" prefHeight="613.0" prefWidth="791.0">
+         <children>
+            <ScrollPane fx:id="mainbookscroller" layoutX="2.0" layoutY="5.2000000000000455" prefHeight="518.0" prefWidth="791.0" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="90.0">
+               <content>
+                  <AnchorPane fx:id="mainbookdisplay" minHeight="0.0" minWidth="0.0" prefHeight="514.0" prefWidth="738.0">
+                     <children>
+                        <FlowPane fx:id="booksoutput" layoutX="75.0" layoutY="13.0" prefHeight="429.0" prefWidth="628.0" AnchorPane.leftAnchor="65.0">
+                           <padding>
+                              <Insets bottom="10.0" left="25.0" top="25.0" />
+                           </padding>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </AnchorPane>
+               </content>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ScrollPane>
+            <Button fx:id="loadmore" layoutX="280.0" layoutY="524.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="267.0" text="Load More books" textFill="#61118a" />
+         </children>
+         <effect>
+            <InnerShadow choke="0.22" height="40.07" radius="15.3625" width="23.38" />
+         </effect>
+      </AnchorPane>
+      <Label id="subtitle" fx:id="subbooktitles" alignment="CENTER" layoutX="418.0" layoutY="109.0" prefHeight="34.0" prefWidth="471.0" text="Top Rated Books">
+         <font>
+            <Font name="Malgun Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="homebtn" fitHeight="57.0" fitWidth="67.0" layoutX="66.0" layoutY="26.0" opacity="0.62" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/images/home1.jpg" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Label fx:id="user_status" layoutX="151.0" layoutY="59.0" prefHeight="18.0" prefWidth="100.0" text="Not VIP">
+         <font>
+            <Font name="Malgun Gothic Bold" size="15.0" />
+         </font></Label>
+      <TextField id="searchbar" layoutX="469.0" layoutY="63.0" prefHeight="35.0" prefWidth="363.0" promptText="Search books ..." />
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</AnchorPane>

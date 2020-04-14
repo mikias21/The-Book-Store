@@ -1,0 +1,4 @@
+#mainanchor{
+    -fx-background-image:url('/resources/images/topcover.jpeg');
+    -fx-background-size: cover;
+}

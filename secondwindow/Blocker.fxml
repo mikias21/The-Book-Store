@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="secondwindow.BlockerController">
+
+
+
+    <children>
+        <Button fx:id="loginbtn" layoutX="196.0" layoutY="200.0" mnemonicParsing="false" text="Login" />
+        <Button fx:id="closebtn" layoutX="368.0" layoutY="200.0" mnemonicParsing="false" text="Close" />
+        <ImageView fx:id="message_image" fitHeight="75.0" fitWidth="77.0" layoutX="263.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../resources/images/close.png" />
+            </image>
+            <effect>
+                <DropShadow />
+            </effect>
+        </ImageView>
+        <Label fx:id="message" alignment="CENTER" layoutX="104.0" layoutY="160.0" prefHeight="26.0" prefWidth="392.0" text="Please Be VIP user to use the search Bar" textFill="#e50d0d">
+            <font>
+                <Font name="Malgun Gothic" size="17.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

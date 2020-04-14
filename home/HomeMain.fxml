@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="mainanchor" prefHeight="513.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.HomeMainController">
+   <children>
+      <Label alignment="CENTER" layoutX="217.0" layoutY="57.0" prefHeight="36.0" prefWidth="314.0" text="The Computer Science Book Store" textFill="#262626">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <ImageView fx:id="vipimg" fitHeight="85.0" fitWidth="86.0" layoutX="137.0" layoutY="150.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resources/images/uservip.png" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="127.0" spread="0.69" width="255.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label fx:id="viptxt" alignment="CENTER" layoutX="14.0" layoutY="110.0" prefHeight="40.0" prefWidth="350.0" text="Become VIP user" textFill="#262626">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="27.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <ImageView fx:id="bookimg" fitHeight="85.0" fitWidth="73.0" layoutX="509.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/images/localbook.png" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="127.0" spread="0.58" width="255.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label fx:id="booktxt" alignment="CENTER" layoutX="394.0" layoutY="110.0" prefHeight="40.0" prefWidth="322.0" text="Check out local Books" textFill="#262626">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="27.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="196.0" layoutY="472.0" prefHeight="26.0" prefWidth="386.0" text="Made By Mikias Berhanu , 2020 ©">
+         <font>
+            <Font name="MV Boli" size="16.0" />
+         </font>
+      </Label>
+      <TextArea disable="true" editable="false" layoutX="76.0" layoutY="260.0" opacity="0.76" prefHeight="190.0" prefWidth="602.0" text="This is a simple project made in Java , mysql and javafx.  This is like the first version with some difficulties. The first problem is its not thread safe there for, you might experiance lagging and some slow performance while using it specially when loading books from online.The second problem is if you forget your password there will be no way to recover password. So be catious not to forget your password. How ever you can still create new account. All this problems will be solved on version two with better look and more features added . Thank you!" wrapText="true">
+         <font>
+            <Font name="Leelawadee UI Bold" size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

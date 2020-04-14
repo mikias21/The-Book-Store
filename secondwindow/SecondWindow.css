@@ -1,0 +1,34 @@
+#secondanchor{
+    -fx-background-image:url('/resources/images/topcover.jpeg');
+    -fx-background-size: cover;
+}
+
+#mainheader{
+    -fx-font-size: 18;
+    -fx-font-weight:bold;
+    -fx-text-fill: #1D211D ;
+}
+
+#pythonbtn{
+    -fx-text-fill: #302e3a;
+}
+
+#subtitle{
+    -fx-text-fill: #151D1F;
+}
+
+#subanchor{
+    -fx-background-color: #F3F4F5;
+}
+
+#subbookholder{
+    -fx-border-color: #000000;
+    -fx-border-insets: 5;
+    -fx-border-width: 0.3;
+    -fx-padding: 10;
+}
+
+#subtitle{
+    -fx-font-weight:bold;
+    -fx-text-fill: #1D211D ;
+}
