@@ -30,4 +30,4 @@
     # it was just a project for learning and having fun and spend time
 
 
-# I BEG YOU DON'T EXPECT PROFESSIONAL CODE :)
+# I BEG YOU DON'T EXPECT A LOT OF PROFICIENCY FROM CODE :) HOPE FULLY IT WILL BE IMPROVED LATER ON
